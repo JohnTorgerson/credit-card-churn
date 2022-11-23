@@ -1,0 +1,32 @@
+/* set map, body, and html to 100% of the screen size */
+#leaflet_map {
+    height:100vh;
+}
+
+#map_loc {
+    position: relative;
+}
+
+#button_loc {
+    position: relative;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+}
+
+#search_loc {
+    position: absolute !important;
+    top: 5% !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+}
+
+#search_loc {
+    z-index: 1031 !important;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
