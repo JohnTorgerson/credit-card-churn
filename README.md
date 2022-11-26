@@ -28,10 +28,13 @@
     3. `RandomForestClassifier_ROC.csv` is a csv table for the random forest classifier ROC curve data
     4. `SVC_ROC.csv` is a csv table for the C-support vector classifier ROC curve data
 * In Folder `Resources`:
-    1. `BankChurners.csv` is the raw data of banking customers
-    2. `clean_churn_db.csv` is the output file of cleaned data of banking customers
-    3. `X.csv` is the training set stored as a data file
-    4. `y.csv` is the test set stored as a data file
+    1. `bank_churn_sketch.jpg` is an image file showing a rough sketch of our model page
+    2. `BankChurners.csv` is the raw data of banking customers
+    3. `churn.ico` is an icon file for loading our favicon
+    4. `churn.png` is an image file for our project logo
+    5. `clean_churn_db.csv` is the output file of cleaned data of banking customers
+    6. `X.csv` is the training set stored as a data file
+    7. `y.csv` is the test set stored as a data file
 * In Folder `static/css`:
     1. `reset.css` is a style sheet used to clear and reset styles to standardized starting point
     2. `style.css` is a style sheet used to customize the html pages
@@ -47,6 +50,7 @@
 * `mechlearn.py` is a python script file for..... .....  I have no idea and look forward to asking the group
 * `predict.html` is an html file for storing a template we plan to host on a heroku app
 * `README.md` is the file you're currently viewing that summarizes this repo
+* `styles.html` is a practice landing page for testing custom css styles
 ---
 
 ### Observations:
