@@ -10,6 +10,18 @@ html *
     font-style: italic;
 }
 
+.sup
+{
+    vertical-align: super;
+    font-size: smaller;
+}
+
+.sub
+{
+    vertical-align: sub;
+    font-size: smaller;
+}
+
 #leaflet_map {
     height:100vh;
 }
