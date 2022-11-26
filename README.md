@@ -17,7 +17,7 @@
 
 
 ### Guide to Repo Contents:
-* In Folder `models`:
+* In Folder `model`:
     1. `knn.html` is an html file for the k-nearest neighbors webpage
     2. `logistic_regression.html` is an html file for the logistic regression webpage
     3. `neural_network` is an html file for the neural network webpage
