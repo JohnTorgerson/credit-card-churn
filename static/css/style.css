@@ -1,4 +1,15 @@
 /* set map, body, and html to 100% of the screen size */
+
+html *
+{
+    font-family: "Garamond", serif;
+}
+
+.italic 
+{
+    font-style: italic;
+}
+
 #leaflet_map {
     height:100vh;
 }
