@@ -25,10 +25,9 @@ html *
 .tab-center 
 {
     position: absolute !important;
-    top: 5% !important;
     left: 50% !important;
     transform: translateX(-50%) !important;
-    eidth: 800
+    width: 100%
 }
 
 /* #leaflet_map {
