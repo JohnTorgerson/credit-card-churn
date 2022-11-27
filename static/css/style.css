@@ -24,7 +24,7 @@ html *
 
 .tab-center 
 {
-    position: absolute !important;
+    position: relative !important;
     left: 50% !important;
     transform: translateX(-50%) !important;
     width: 100%
