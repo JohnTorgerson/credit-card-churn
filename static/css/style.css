@@ -24,12 +24,14 @@ html *
 
 .tab-center 
 {
-    margin-left: auto;
+    /* margin-left: auto;
     margin-right: auto;
-    width: 500;
-    /* position: relative;
+    width: 500; */
+
+    position: absolute !important;
+    top: 5% !important;
     left: 50% !important;
-    transform: translateX(-50%) !important; */
+    transform: translateX(-50%) !important;
 }
 
 /* #leaflet_map {
