@@ -28,7 +28,7 @@ html *
     margin-right: auto;
     width: 500; */
 
-    position: absolute !important;
+    position: relative!important;
     top: 5% !important;
     left: 50% !important;
     transform: translateX(-50%) !important;
