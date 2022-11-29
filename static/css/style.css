@@ -1,5 +1,40 @@
 /* set map, body, and html to 100% of the screen size */
-#leaflet_map {
+
+html *
+{
+    font-family: "Garamond", serif;
+}
+
+.italic 
+{
+    font-style: italic;
+}
+
+.sup
+{
+    vertical-align: super;
+    font-size: smaller;
+}
+
+.sub
+{
+    vertical-align: sub;
+    font-size: smaller;
+}
+
+.tab-center 
+{
+    /* margin-left: auto;
+    margin-right: auto;
+    width: 500; */
+
+    position: relative!important;
+    top: 5% !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+}
+
+/* #leaflet_map {
     height:100vh;
 }
 
@@ -22,7 +57,7 @@
 
 #search_loc {
     z-index: 1031 !important;
-}
+} */
 
 .center {
     display: block;
