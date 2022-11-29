@@ -68,7 +68,15 @@ def roc(X_, y_, model_inst, N, plot = False, area=False, save_path=None):
     else:
         return (F, T)
 
-def test_model(X, y, model='log', inst_num=None, trials=False, **kwargs):
+def acc_test(X, y, model='log', inst_num=None, **kwargs):
+    y = y.to_numpy().ravel()
+    _Xs, Xs_, _y, y_ = split_and_scale(X, y)
+    M = model_dict[model]
+    m = M(**kwargs)
+    m.fit(_Xs, _y)
+    return m.score(Xs_, y_)
+    
+def auc_test(X, y, model='log', inst_num=None, trials=False, **kwargs):
     y = y.to_numpy().ravel()
     _Xs, Xs_, _y, y_ = split_and_scale(X, y)
     M = model_dict[model]
